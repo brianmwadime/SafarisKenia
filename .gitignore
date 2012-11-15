@@ -1,8 +1,4 @@
 #ignore following files and folders
-.project
-proguard.cfg
 default.properties
-project.properties
-.classpath
-bin/
+/bin
 /gen
