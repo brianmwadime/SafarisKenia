@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:paddingLeft="0dip" android:paddingRight="0dip" android:paddingTop="5dip" 
+    android:paddingBottom="5dip"
+    android:background="#ffffff">
+    <TextView android:id="@+id/tr_value_name" android:layout_width="100dip"
+		android:layout_height="wrap_content" android:gravity="center_vertical" 
+		android:textSize="14sp" android:textColor="#000" android:paddingLeft="5dip" android:textStyle="bold" 
+		 />
+    <TextView android:id="@+id/tr_value_description" android:layout_width="180sp"
+		android:layout_height="wrap_content" android:layout_toRightOf="@id/tr_value_name" android:gravity="left" 
+		android:textSize="13sp" android:textColor="#000"
+		 />
+</RelativeLayout>

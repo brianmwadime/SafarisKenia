@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, SafarisKeniaActivity!</string>
+    <string name="app_name">Safaris-Kenia Mobile</string>
+    <string name="remote_server_link">http://10.0.2.2/banziga/index.php</string>
+    <string name="no_tours">No Tours Availble</string>
+    <string name="tr_label_n">Tour</string>
+    <string name="tr_label_d">Description</string>
+    <string name="no_packages">No Packages Available</string>
+    <string name="home">Safaris-Kenia Tour Guide</string>
+    <string name="package_title">Available Tour Packages</string>
+    <string name="package_det_title">Package Description</string>
+    <string name="package_det">Package Description</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="#ffffff">
+ <RelativeLayout 
+     	android:id="@+id/tours_relative_title"
+    	android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+    	android:background="#004429"
+		android:paddingTop="5dip"
+		android:paddingBottom="5dip" >
+	   <TextView android:id="@+id/tr_name" android:layout_width="180dip"
+			android:layout_height="wrap_content" android:text="@string/tr_label_n" android:gravity="center_vertical" 
+			android:textSize="13sp" android:textColor="#FFFFFF" android:paddingLeft="5dip" android:textStyle="bold" 
+			 />
+	    <TextView android:id="@+id/tr_description" android:layout_width="80dip" android:text="@string/tr_label_d"
+			android:layout_height="wrap_content" android:layout_toRightOf="@id/tr_name" 
+			android:gravity="center" android:textSize="13sp" android:textColor="#FFFFFF" android:textStyle="bold"
+			 />
+	</RelativeLayout>
+    <ListView
+        android:id="@+id/tr_tours_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+		android:layout_below="@id/tours_relative_title"/>
+</RelativeLayout>
