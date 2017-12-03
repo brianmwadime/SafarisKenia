@@ -1,6 +1,6 @@
 # SafarisKenia Mobile
 
-My first Android application. Developed almost 3 years ago. It pulled data from a tour site developed on top of Joomla.
+My first Android application. Developed almost 5 years ago. It pulled data from a tour site developed on top of Joomla.
 
 ## Getting started
 
